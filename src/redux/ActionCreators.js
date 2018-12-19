@@ -9,7 +9,7 @@ export const addFeedback = (feedback) => ({
 
 export const postFeedback = (feedback) => (dispatch) => {
      
-    return fetch(baseUrl + 'feedback', {
+    return fetch(baseUrl + 'feedback.json', {
         method: 'POST',
         body: JSON.stringify(feedback),
         headers: {
@@ -59,7 +59,7 @@ export const postComment = (dishId, rating, author, comment) => (dispatch) => {
 
     newComment.date = new Date().toISOString();
 
-    return fetch(baseUrl + 'comments', {
+    return fetch(baseUrl + 'comments.json', {
         method: 'POST',
         body: JSON.stringify(newComment),
         headers: {
@@ -92,7 +92,7 @@ export const postComment = (dishId, rating, author, comment) => (dispatch) => {
 }
 
 export const fetchFeedbacks = () => (dispatch) => {
-    return fetch(baseUrl + 'feedback')
+    return fetch(baseUrl + 'feedback.json')
         .then(response => {
             if(response.ok) {
                 return response;
@@ -129,7 +129,7 @@ export const fetchDishes = () => (dispatch) => {
     dispatch(dishesLoading(true));
 
     // fetch dishes from server then push to redux store
-    return fetch(baseUrl + 'dishes')
+    return fetch(baseUrl + 'dishes.json')
         // receive response from server but could be an error response
         .then(response => {
             if(response.ok) {
@@ -168,7 +168,7 @@ export const addDishes = (dishes) => ({
 });
 
 export const fetchComments = () => (dispatch) => {
-    return fetch(baseUrl + 'comments')
+    return fetch(baseUrl + 'comments.json')
         .then(response => {
             if(response.ok) {
                 return response;
@@ -203,7 +203,7 @@ export const addComments = (comments) => ({
 export const fetchPromos = () => (dispatch) => {
     dispatch(promosLoading(true));
 
-    return fetch(baseUrl + 'promotions')
+    return fetch(baseUrl + 'promotions.json')
         .then(response => {
             if(response.ok) {
                 return response;
@@ -244,7 +244,7 @@ export const addPromos = (promos) => ({
 export const fetchLeaders = () => (dispatch) => {
     dispatch(leadersLoading(true));
 
-    return fetch(baseUrl + 'leaders')
+    return fetch(baseUrl + 'leaders.json')
         // .then takes in 2 arguments
         .then(
             response => {
