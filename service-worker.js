@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Voltron/precache-manifest.b0d155160763e96ab5fb6b78dac8f929.js"
+  "/Voltron/precache-manifest.1917a9a1940a45e93f418668830793b3.js"
 );
 
 workbox.clientsClaim();
