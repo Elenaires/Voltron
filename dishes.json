@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Schweinshax'n",
+    "image": "images/pork.JPG",
+    "category": "mains",
+    "label": "Hot",
+    "price": "4.99",
+    "featured": true,
+    "description": "These farm fresh pork hocks are prepared daily in the old Bavarian style. Lightly seasoned and slow roasted in our window rotisserie. This delicacy features crispy flavorful skin and tender juicy meat."
+  },
+  {
+    "id": 1,
+    "name": "Biang Biang Noodle",
+    "image": "images/chinese.JPG",
+    "category": "appetizer",
+    "label": "",
+    "price": "1.99",
+    "featured": false,
+    "description": "A delicious spicy noodle dish, freshly made in store by Chef Hunk. The word 'biang' is an onomatopoeia - it mimics of the sound made in the process of making the noodles, when the dough is pulled and slapped against the working surface"
+  },
+  {
+    "id": 2,
+    "name": "Prawn Pasta",
+    "image": "images/noodle.JPG",
+    "category": "appetizer",
+    "label": "New",
+    "price": "1.99",
+    "featured": false,
+    "description": "This prawn pasta recipe is one of Chef Hunk's favourite flavour combination; spaphetti with prawns, tomato and red wine!"
+  },
+  {
+    "id": 3,
+    "name": "ElaiCheese Cake",
+    "image": "images/cake.JPG",
+    "category": "dessert",
+    "label": "",
+    "price": "2.99",
+    "featured": false,
+    "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+  }
+]
