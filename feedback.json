@@ -1,0 +1,53 @@
+[
+  {
+    "firstname": "fdas",
+    "lastname": "afds",
+    "telnum": "134113",
+    "email": "dafdads@daffas.dfdafd",
+    "agree": true,
+    "contactType": "Email",
+    "message": "afadsfds",
+    "date": "2017-12-04T09:41:49.890Z",
+    "id": 1
+  },
+  {
+    "firstname": "Selina",
+    "lastname": "Dail",
+    "telnum": "1234",
+    "email": "ial@gmail.com",
+    "agree": false,
+    "contactType": "Tel.",
+    "message": "Great",
+    "id": 2
+  },
+  {
+    "firstname": "Blair",
+    "lastname": "Gilbert",
+    "telnum": "657890123",
+    "email": "gilbert@gmail.com",
+    "agree": true,
+    "contactType": "Email",
+    "message": "Great experience",
+    "id": 3
+  },
+  {
+    "firstname": "Yong",
+    "lastname": "Sui",
+    "telnum": "8888",
+    "email": "yung@gmail.com",
+    "agree": true,
+    "contactType": "Tel.",
+    "message": "It's okay",
+    "id": 4
+  },
+  {
+    "firstname": "Meany",
+    "lastname": "Meany",
+    "telnum": "7890",
+    "email": "mean@meany.com",
+    "agree": false,
+    "contactType": "Tel.",
+    "message": "Dont contact me please",
+    "id": 5
+  }
+]
