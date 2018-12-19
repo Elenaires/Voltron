@@ -1,16 +1,16 @@
 {
   "main.css": "/Voltron/static/css/main.943414e7.chunk.css",
-  "main.js": "/Voltron/static/js/main.8f680129.chunk.js",
-  "main.js.map": "/Voltron/static/js/main.8f680129.chunk.js.map",
+  "main.js": "/Voltron/static/js/main.e0ca9dd8.chunk.js",
+  "main.js.map": "/Voltron/static/js/main.e0ca9dd8.chunk.js.map",
   "static/css/1.fa1bc8e9.chunk.css": "/Voltron/static/css/1.fa1bc8e9.chunk.css",
   "static/js/1.e40d0e3a.chunk.js": "/Voltron/static/js/1.e40d0e3a.chunk.js",
   "static/js/1.e40d0e3a.chunk.js.map": "/Voltron/static/js/1.e40d0e3a.chunk.js.map",
   "runtime~main.js": "/Voltron/static/js/runtime~main.09fe12bb.js",
   "runtime~main.js.map": "/Voltron/static/js/runtime~main.09fe12bb.js.map",
-  "static/media/font-awesome.min.css": "/Voltron/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/font-awesome.min.css": "/Voltron/static/media/fontawesome-webfont.674f50d2.eot",
   "static/css/main.943414e7.chunk.css.map": "/Voltron/static/css/main.943414e7.chunk.css.map",
   "static/css/1.fa1bc8e9.chunk.css.map": "/Voltron/static/css/1.fa1bc8e9.chunk.css.map",
   "index.html": "/Voltron/index.html",
-  "precache-manifest.64311a6bd07f9c7d2e1b7d1d7d3ed058.js": "/Voltron/precache-manifest.64311a6bd07f9c7d2e1b7d1d7d3ed058.js",
+  "precache-manifest.a83a4e8bb5a16e7463e376b037ca250c.js": "/Voltron/precache-manifest.a83a4e8bb5a16e7463e376b037ca250c.js",
   "service-worker.js": "/Voltron/service-worker.js"
 }
